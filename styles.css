@@ -38,7 +38,6 @@ body::before {
     z-index: -1; /* Mantém a camada atrás do conteúdo */
 }
 article {
-    background-color: #d3d3d325;
     padding: 5px;
     border-radius: 30px;
 }

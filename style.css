@@ -21,6 +21,10 @@ body.pagina2::before {
 .page2 {
     background-color: rgba(0, 0, 0, 0.404);
 }
+
+.h1 , .p {
+    text-align: center;
+}
 .carrosel-width {
     min-width: 300px;
     max-width: 1000px;
@@ -33,3 +37,15 @@ body.pagina2::before {
 .carousel-item img {
     border-radius: 15px !important;
 }
+
+#h2-carousel {
+    text-align: center;
+    color: #FFFFFF!important;
+    z-index: 1;
+}
+p{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+

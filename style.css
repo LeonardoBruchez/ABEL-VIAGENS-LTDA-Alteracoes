@@ -9,7 +9,7 @@ body {
 
 body.pagina2::before {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -25,7 +25,15 @@ body.pagina2::before {
 .h1 , .p {
     text-align: center;
 }
+.carousel {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
 .carrosel-width {
+    background-color: rgbargba(0, 0, 0, 0.5);
+    padding: 10px;
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
@@ -35,10 +43,14 @@ body.pagina2::before {
 }
 
 .carousel-item img {
-    border-radius: 15px !important;
+    border-radius: 15px;
 }
-
+.carousel-item.active img {
+    border-radius: 15px;
+}
 #h2-carousel {
+    margin-top: 20px;
+    margin-bottom: 10px;
     text-align: center;
     color: #FFFFFF!important;
     z-index: 1;
@@ -49,3 +61,6 @@ p{
     z-index: 1;
 }
 
+.imageprev {
+    
+}

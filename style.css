@@ -6,8 +6,12 @@ https://ricardoturismo.com.br/roteiros.php
 https://luatur.com.br/sobre/
 https://www.facebook.com/FloripaTour/
 */
+
+
+
 body {
-    background-image: url(imagens/onibusazul.jpg);
+    background-image: url(imagens/onibusazul.jpg) !important;
+    background-color: #0D6EFD;
     background-size: cover;
     background-repeat: none;
     background-attachment: fixed;
@@ -25,7 +29,13 @@ body.pagina2::before {
     z-index: 0;
 }
 .background-nav {
-    background-image:linear-gradient(to top,#0D6EFD 50%,#002458) !important;
+    background-image:linear-gradient(to top,#0D6EFD 70%,#013175) !important;
+}
+
+.width-logo {
+    width: 200px;             
+    position: relative;
+    position: -50%;
 }
 
 .page2 {

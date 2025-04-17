@@ -1,10 +1,17 @@
 @charset "UTF-8";
 
+/*
+https://jjeturismo.com/site/
+https://ricardoturismo.com.br/roteiros.php
+https://luatur.com.br/sobre/
+https://www.facebook.com/FloripaTour/
+*/
 body {
-    background-image: url(imagens/imagemfundo.jpeg);
+    background-image: url(imagens/onibusazul.jpg);
     background-size: cover;
     background-repeat: none;
     background-attachment: fixed;
+    background-position: center center;
 }   
 
 body.pagina2::before {
@@ -17,14 +24,15 @@ body.pagina2::before {
     background-color: rgba(0, 0, 0, 0.5); /* preto com 50% de transparência */
     z-index: 0;
 }
+.background-nav {
+    background-image:linear-gradient(to top,#0D6EFD 50%,#002458) !important;
+}
 
 .page2 {
     background-color: rgba(0, 0, 0, 0.404);
 }
 
-.h1 , .p {
-    text-align: center;
-}
+
 .carousel {
     border-radius: 15px;
     overflow: hidden;
@@ -59,8 +67,4 @@ p{
     text-align: center;
     position: relative;
     z-index: 1;
-}
-
-.imageprev {
-    
 }

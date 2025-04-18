@@ -101,3 +101,37 @@ p{
     position: relative;
     z-index: 1;
 }
+/* Estilo base do botão do WhatsApp */
+.whatsapp-button {
+    position: fixed;
+    bottom: 75px;
+    right: 15px;
+    background-color: #25D366;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 0;
+    text-align: center;
+    cursor: pointer;
+    z-index: 10000;
+}
+
+.whatsapp-button img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+    .whatsapp-button {
+        bottom: 20px;
+        right: 10px;
+        padding: 10px;
+    }
+
+    .whatsapp-button img {
+        width: 30px;
+        height: 30px;
+    }
+}

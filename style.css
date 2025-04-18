@@ -17,6 +17,16 @@ body {
     background-attachment: fixed;
     background-position: center center;
 }   
+@media (max-width: 1240px) {
+    body {
+        background-image: url(imagens/imagem-media-fundp.jpeg) !important;
+    }
+}
+@media (max-width: 900px) {
+    body {
+        background-image: url(imagens/imagem-peq-fundo.jpeg) !important;
+    }
+}
 
 body::before {
     content: "";

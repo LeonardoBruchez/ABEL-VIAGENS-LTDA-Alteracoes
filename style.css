@@ -32,15 +32,27 @@ body.pagina2::before {
     background-image:linear-gradient(to top,#0D6EFD 70%,#013175) !important;
 }
 
+
+
 .width-logo {
     width: 200px;             
     position: relative;
-    position: -50%;
-    display: inline-block
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .page2 {
     background-color: rgba(0, 0, 0, 0.404);
+}
+
+.navbar {
+    padding-bottom: 15px !important;
+    padding-top: 15px !important;
+}
+
+.navbar-brand {
+    padding-left: 100px;
 }
 
 

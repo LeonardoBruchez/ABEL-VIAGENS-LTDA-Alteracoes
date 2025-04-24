@@ -7,26 +7,28 @@ https://luatur.com.br/sobre/
 https://www.facebook.com/FloripaTour/
 */
 
-
+* {
+    margin:0px !important;
+}
 
 #body-1 {
-    background-image: url(imagens/estrada-fundo.jpg) !important;
+    background-image: url(imagens/estrada-fundo-grande.jpg) !important;
     background-color: #0D6EFD;
     background-size: cover;
     background-repeat: none;
     background-attachment: fixed;
     background-position: bottom center;
 }   
-@media (max-width: 1240px) {
-    body {
-        background-image: url(imagens/imagem-media-fundp.jpeg) !important;
+/*@media (max-width: 1500px) {
+    #body-1 {
+        background-image: url(imagens/estrada-fundo-grande.jpg) !important;
     }
 }
 @media (max-width: 900px) {
-    body {
-        background-image: url(imagens/imagem-peq-fundo.jpeg) !important;
+    #body-1 {
+        background-image: url(imagens/estrada-fundo-media.jpg) !important;
     }
-}
+} */
 
 #body-1::before {
     content: "";
@@ -35,7 +37,7 @@ https://www.facebook.com/FloripaTour/
     left: 0;
     width: 100%;
     height: 100%;
-    background-image:linear-gradient(to top,#1070ff85,#0957c486) !important;
+    background-image:linear-gradient(to top,#1070ff85,#0957c486) !important;    
     z-index: 0;
 }
 

@@ -9,7 +9,37 @@ https://www.facebook.com/FloripaTour/
 
 
 
-body {
+#body-1 {
+    background-image: url(imagens/estrada-fundo.jpg) !important;
+    background-color: #0D6EFD;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-position: bottom center;
+}   
+@media (max-width: 1240px) {
+    body {
+        background-image: url(imagens/imagem-media-fundp.jpeg) !important;
+    }
+}
+@media (max-width: 900px) {
+    body {
+        background-image: url(imagens/imagem-peq-fundo.jpeg) !important;
+    }
+}
+
+#body-1::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(to top,#1070ff85,#0957c486) !important;
+    z-index: 0;
+}
+
+#body-2 {
     background-image: url(imagens/imagemmmfuyndoo.jpg) !important;
     background-color: #0D6EFD;
     background-size: cover;
@@ -27,8 +57,7 @@ body {
         background-image: url(imagens/imagem-peq-fundo.jpeg) !important;
     }
 }
-
-body::before {
+#body-2::before {
     content: "";
     position: fixed;
     top: 0;
@@ -38,6 +67,39 @@ body::before {
     background-image:linear-gradient(to top,#1070ff85,#0957c486) !important;
     z-index: 0;
 }
+
+
+#body-3 {
+    background-image: url(imagens/estrada-fundo.jpg) !important;
+    background-color: #0D6EFD;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-position: bottom center;
+}   
+@media (max-width: 1240px) {
+    body {
+        background-image: url(imagens/imagem-media-fundp.jpeg) !important;
+    }
+}
+@media (max-width: 900px) {
+    body {
+        background-image: url(imagens/imagem-peq-fundo.jpeg) !important;
+    }
+}
+#body-3::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(to top,#1070ff85,#1875f79a) !important;
+    z-index: 0;
+}
+
+
+
 .background-nav {
     background-image:linear-gradient(to top,#0D6EFD 0%,#013175) !important;
 }
@@ -55,14 +117,28 @@ body::before {
     position: relative;
 }
 
-.width-logo {
+.width-logo-page1 {
     width: 200px;
     position: absolute;
-    top: -50px; /* Sobe a logo */
+    top: -40px; /* Sobe a logo */
     left: 4 5px; /* Ajuste lateral, se quiser */
     z-index: 10; /* Garante que fique por cima */
 }
 
+.width-logo-pag2 {
+    width: 200px;
+    position: absolute;
+    top: -40px; /* Sobe a logo */
+    left: 4 5px; /* Ajuste lateral, se quiser */
+    z-index: 10; /* Garante que fique por cima */
+}
+.width-logo-page3 {
+    width: 200px;
+    position: absolute;
+    top: -40px; /* Sobe a logo */
+    left: 4 5px; /* Ajuste lateral, se quiser */
+    z-index: 10; /* Garante que fique por cima */
+}
 .page2 {
     background-color: rgba(0, 0, 0, 0.404);
 }
@@ -71,8 +147,8 @@ body::before {
 
 
 .navbar {
-    padding-bottom: 15px !important;
-    padding-top: 15px !important;
+    padding-bottom: 20px !important;
+    padding-top: 20px !important;
 }
 
 .navbarNav {
@@ -132,6 +208,10 @@ p{
     text-align: center;
     position: relative;
     z-index: 1;
+}
+
+.onibus-png {
+    
 }
 /* Estilo base do botão do WhatsApp */
 .whatsapp-button {

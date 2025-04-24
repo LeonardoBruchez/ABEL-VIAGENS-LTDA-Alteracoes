@@ -42,27 +42,59 @@ body::before {
     background-image:linear-gradient(to top,#0D6EFD 0%,#013175) !important;
 }
 
-
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; /* espaçamento entre os itens */
+    width: 100%;
+    padding-left: 0;
+    margin: 0 auto;
+}
+.container-fluid {
+    position: relative;
+}
 
 .width-logo {
-    width: 200px;             
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    width: 200px;
+    position: absolute;
+    top: -50px; /* Sobe a logo */
+    left: 4 5px; /* Ajuste lateral, se quiser */
+    z-index: 10; /* Garante que fique por cima */
 }
 
 .page2 {
     background-color: rgba(0, 0, 0, 0.404);
 }
 
+
+
+
 .navbar {
     padding-bottom: 15px !important;
     padding-top: 15px !important;
 }
 
+.navbarNav {
+    text-align: center !important;
+}
+
+.navbar-Nav {
+    padding: px 0px !important;
+}
+
 .navbar-brand {
     padding-left: 100px;
+}
+.menu-centralizado {
+  text-align: center; 
+  padding: 0;
+  list-style: none;
+}
+
+.menu-centralizado li {
+  display: inline-block;
+  margin: 0px 0px;
 }
 
 

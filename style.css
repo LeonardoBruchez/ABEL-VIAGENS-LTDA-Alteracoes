@@ -19,7 +19,7 @@ https://www.facebook.com/FloripaTour/
     background-attachment: fixed;
     background-position: bottom center;
 }   
-/*@media (max-width: 1500px) {
+@media (max-width: 1500px) {
     #body-1 {
         background-image: url(imagens/estrada-fundo-grande.jpg) !important;
     }
@@ -28,7 +28,7 @@ https://www.facebook.com/FloripaTour/
     #body-1 {
         background-image: url(imagens/estrada-fundo-media.jpg) !important;
     }
-} */
+}
 
 #body-1::before {
     content: "";
@@ -79,16 +79,6 @@ https://www.facebook.com/FloripaTour/
     background-attachment: fixed;
     background-position: bottom center;
 }   
-@media (max-width: 1240px) {
-    body {
-        background-image: url(imagens/imagem-media-fundp.jpeg) !important;
-    }
-}
-@media (max-width: 900px) {
-    body {
-        background-image: url(imagens/imagem-peq-fundo.jpeg) !important;
-    }
-}
 #body-3::before {
     content: "";
     position: fixed;
@@ -174,7 +164,25 @@ https://www.facebook.com/FloripaTour/
   display: inline-block;
   margin: 0px 0px;
 }
+.onibus-img {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    transform: scaleX(-1);
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+  }
 
+  @media (max-width:1300px) {
+    .onibus-img {
+      max-width: 100%; /* mais compacto em telas pequenas */
+      top: 110px; /* empurra a imagem mais para baixo */
+      visibility: hidden;
+
+    }
+  }
+ 
 
 .carousel {
     border-radius: 15px;

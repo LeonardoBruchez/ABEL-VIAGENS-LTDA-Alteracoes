@@ -7,9 +7,6 @@ https://luatur.com.br/sobre/
 https://www.facebook.com/FloripaTour/
 */
 
-* {
-    margin:0px !important;
-}
 
 #body-1 {
     background-image: url(imagens/estrada-fundo-grande.jpg) !important;
@@ -174,7 +171,7 @@ https://www.facebook.com/FloripaTour/
     height: auto;
   }
 
-  @media (max-width:1300px) {
+  @media (max-width:300px) {
     .onibus-img {
       max-width: 100%; /* mais compacto em telas pequenas */
       top: 110px; /* empurra a imagem mais para baixo */
@@ -195,7 +192,7 @@ https://www.facebook.com/FloripaTour/
     padding: 10px;
     min-width: 300px;
     max-width: 1000px;
-    margin: auto;
+    margin: 0 auto;
 }
 #carouselExample {
     margin-top: 20px;
